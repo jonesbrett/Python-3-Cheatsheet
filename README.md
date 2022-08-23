@@ -1,4 +1,4 @@
 <p align="center">
-  <img src="img/Python-Cheat-Sheets-image.png" width="900" height="526" align="center" title="Pythion cheatsheet">
+  <img src="img/Python-Cheat-Sheets.png" width="900" height="526" align="center" title="Pythion cheatsheet">
   
 </p>
