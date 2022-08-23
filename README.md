@@ -39,8 +39,7 @@ You can Concatenate Truples useing the + sign. #tuple1 + tuple2
 ```python
 tuple1 = ('1','2','3')
 tuple2 = ('a','b','c')
-```
-```python
+
 output = tuple1 + tuple2
 print(output)
 '1','2','3','a','b','c'
