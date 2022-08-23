@@ -3,11 +3,17 @@
   
 </p>
 
-Wellcome to my Cheat Sheets, this is work in progress to assist me and any others who may find it useful.
+Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Content
 - [Data Structures](#data-structures)
+  - [Lists](#lists)
+  - [Dictionaries](#dictionaries)
   - [Tuples](#tuples)
+    - [Tuples with one item](#tuples-with-one-item)
+    - [Changing the value of a tuple](#changing-the-values-of-a-tuple)
+    - [Concatenating Tuples](#concatenating-tuples)
+    - [Reversing Tuples](#reversing-tuples)
 
 
 
@@ -33,6 +39,8 @@ A tuple is a collection which is ordered, indexed and immutable (they can not be
 t = ('a','b','c')
 t = 'a','b'.'c'     # Note Tuples can be written without the brackets too.
 ```
+### Tuples with one item
+
 A tuple can also have a single item in too, but it need to have a comma after it:
 
 ```python
@@ -42,6 +50,8 @@ a = (1)     # a is the value and not a tuple
 a = 1,    # a is the tuple (1,)
 a = 1     # a is the value and not a tuple
 ```
+### Changing the values of a tuple
+
 Changing the values of tuples, this can only be done if you convert the tuple to a list first and
 then back to a tuple afterwards:
 
@@ -53,6 +63,8 @@ colours = tuple(newcolours)
 print(colours)
 # ('red', 'green', 'blue')
 ```
+### Concatenating Tuples
+
 You can Concatenate tuples useing the + sign:
 
 ```python
@@ -61,8 +73,10 @@ tuple2 = ('a','b','c')
 
 output = tuple1 + tuple2
 print(output)
-'1','2','3','a','b','c'
+# '1','2','3','a','b','c'
 ```
+### Reversing Tuples
+
 Reversing the order of tuple
 
 ```python
