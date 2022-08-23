@@ -8,12 +8,12 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 # Table of Content
 - [Data Structures](#data-structures)
   - [Lists](#lists)
-    - [List Items](#list-items
+    - [List Items](#list-items)
     - [Changing the values of a list](#changing-the-values-of-a-list)
     - [Duplicates are Allowed](#duplicates-are-allowed)
     - [Length of List](#length-of-list)
     - [List - Data Types](#list---data-types)
-    
+
   - [Dictionaries](#dictionaries)
   - [Tuples](#tuples)
     - [Tuples with one item](#tuples-items)
