@@ -31,9 +31,9 @@ A tuple is a collection which is ordered, indexed and immutable (they can not be
 
 ```python
 t = ('a','b','c')
-t = 'a','b'.'c'     # Note Tuples can be written with the brackets too.
+t = 'a','b'.'c'     # Note Tuples can be written without the brackets too.
 ```
-A tuple can also have a single item in it, but it need to have a comma after it.
+A tuple can also have a single item in too, but it need to have a comma after it.
 
 ```python
 a = (1,)    # a is the tuple (1,)
@@ -42,8 +42,18 @@ a = (1)     # a is the value and not a tuple
 a = 1,    # a is the tuple (1,)
 a = 1     # a is the value and not a tuple
 ```
+Changing the values of tuples, this can only be if you convert the tuple to a list first and
+then back to a tuple afterwards
 
-You can Concatenate tuples useing the + sign. #tuple1 + tuple2
+```python
+colours = ('red','green','black')
+newcolours = list(colours)
+newcolours[2] = 'blue'
+colours = tuple(newcolours)
+print(colours)
+# ('red', 'green', 'blue')
+```
+You can Concatenate tuples useing the + sign.
 
 ```python
 tuple1 = ('1','2','3')
@@ -61,6 +71,22 @@ rev = colours[::-1]
 # rev: ('blue','green','red')
 colours = rev
 # colours: ('blue','green','red')
+```
+Max() and Min() functions in tuples.
+
+```python
+tuple1 = ('1','2','3')
+max(tuple1)
+# 3
+min(tuple1)
+# 1
+```
+The len() function returns the length of the tuple
+
+```python
+tuple1 = ('1','2','3')
+len(tuple1)
+# 3
 ```
 
 
