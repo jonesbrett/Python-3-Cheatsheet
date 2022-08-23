@@ -3,7 +3,7 @@
   
 </p>
 
-# This is work in progress to assist me and any others who find it useful.
+Wellcome to my Cheat Sheets, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Content
 - [Data Structures](#data-structures)
@@ -29,20 +29,21 @@
 
 A tuple is a collection which is ordered, indexed and immutable (they can not be changed).
 
-'''python
+```python
 t = ('a','b','c')
 t = 'a','b'.'c'     # Note Tuples can be written with the brackets too.
-'''
+```
 
 You can Concatenate Truples useing the + sign. #tuple1 + tuple2
 
-'''
+```python
 tuple1 = ('1','2','3')
 tuple2 = ('a','b','c')
-'''
-'''
-tuple1 + tuple2
-ouput = ('1','2','3','a','b','c')
-'''
+```
+```python
+output = tuple1 + tuple2
+print(output)
+'1','2','3','a','b','c'
+```
 
 
