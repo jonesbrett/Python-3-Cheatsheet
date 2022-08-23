@@ -6,8 +6,8 @@
 # This is work in progress to assist me and any others who find it useful.
 
 # Table of Content
-
--[Tuples](#tuples)
+ - [Data Structures](#data-structures)
+  - [Tuples](#tuples)
 
 
 
