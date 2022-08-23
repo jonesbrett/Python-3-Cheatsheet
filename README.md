@@ -41,7 +41,7 @@ t = 'a','b'.'c'     # Note Tuples can be written without the brackets too.
 ```
 ### Tuples with one item
 
-A tuple can also have a single item in too, but it need to have a comma after it:
+A tuple can also have a single item in too, but it needs to have a comma after it:
 
 ```python
 a = (1,)    # a is the tuple (1,)
