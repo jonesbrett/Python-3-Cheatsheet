@@ -1,4 +1,4 @@
-- [Return to Main menu](README.md)  
+- [Return to Table of Contents](README.md)  
 
 # Data Types                                                                                          
 
@@ -201,4 +201,4 @@ len(tuple1)
 # 3
 ```
 
-- [Return to Main menu](README.md)
+- [Return to Table of Contents](README.md)
