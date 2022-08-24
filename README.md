@@ -15,6 +15,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Length of List](pages/data.md#length-of-list)
     - [List - Data Types](pages/data.md#list---data-types)
   - [Dictionaries](pages/data.md#dictionaries)
+    - [Dictionary Items](pages/data.md#dictionary-items)
   - [Tuples](pages/data.md#tuples)
     - [Tuples with one item](pages/data.md#tuples-items)
     - [Changing the value of a Tuple](pages/data.md#changing-the-values-of-a-tuple)
