@@ -6,6 +6,7 @@
 Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Content
+- [Data Types](#data-types)
 - [Data Structures](#data-structures)
   - [Lists](#lists)
     - [List Items](#list-items)
@@ -13,7 +14,6 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Duplicates are Allowed](#duplicates-are-allowed)
     - [Length of List](#length-of-list)
     - [List - Data Types](#list---data-types)
-
   - [Dictionaries](#dictionaries)
   - [Tuples](#tuples)
     - [Tuples with one item](#tuples-items)
@@ -22,10 +22,29 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Reversing Tuples](#reversing-tuples)
   - [Sets](#sets)
 
+# Data Types
+
+Data types are an important concept in programming. Variables store data of different types,
+which can do different things. Python has the following data types:
+
+| Description | Data Type |
+| ----------- | --------- |
+| Text Type | str |
+| Numeric Type | int, float, complex |
+| Sequence Type | list, tuple, range |
+| Mapping Type | dict |
+| Set Type | set, frozenset |
+| Boolean Type | bool |
+| Binary Types | bytes, bytearray, memoryview |
+| None Types | NoneType |
+
+
+
+
 
 # Data Structures
 
-There are four different types of Data Structure, Lists, Dictionaries, Tuples and Sets
+There are four different types of Data Structure, Lists, Dictionaries, Tuples and Sets:
 
 ## Lists
 
@@ -39,7 +58,7 @@ print(thilist)
 ### List Items
 
 List items are ordered, changable, and allow duplicate values. List items are indexed, 
-the first item has an index of [0], the second item [1].
+the first item has an index of [0], the second item [1]:
 
 ```python
 thislist = ['apple', 'banana', 'cherry']
@@ -146,7 +165,7 @@ print(output)
 ```
 ### Reversing Tuples
 
-Reversing the order of tuple
+Reversing the order of tuple:
 
 ```python
 colours = ('red','green','blue')
