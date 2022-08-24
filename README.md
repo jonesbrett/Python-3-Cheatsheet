@@ -9,11 +9,11 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 - [Operators](pages/operators.md)
   - [Arithmetic Operators](pages/operators.md#arithmetic-operators)
   - [Assignment operators](pages/operators.md#assignment-operators)
-  - [Comparison operators]
-  - [Logical operators]
-  - [Identity operators]
-  - [Membership operators]
-  - [Bitwise operators]
+  - [Comparison operators](pages/operators.md#comparison-operators)
+  - [Logical operators](pages/operators.md#logical-operators)
+  - [Identity operators](pages/operators.md#identity-operators)
+  - [Membership operators](pages/operators.md#membership-operators)
+  - [Bitwise operators](pages/operators.md#bitwise-operators)
 - [Data Types](pages/data.md#data-types)
 - [Data Structures](pages/data.md#data-structures)
   - [Lists](pages/data.md#lists)
