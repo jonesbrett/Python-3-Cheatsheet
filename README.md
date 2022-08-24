@@ -38,7 +38,35 @@ which can do different things. Python has the following data types:
 | Binary Types | bytes, bytearray, memoryview |
 | None Types | NoneType |
 
+## Getting the Data Type
 
+You can get the data type of any object using the type() function:
+
+```python
+x = 5
+print(type(x))
+```
+
+## Setting the Specific Data Type
+
+You can set the data type using the following constructors:
+
+| Example | Data Type |
+| ------- | --------- |
+| x = str('Hello World') | str |
+| x = int(20) | int |
+| x = floar(20.5) | float |
+| x = complex(1j) | complex |
+| x = list(('apple', 'banana', 'cherry')) | list |
+| x = tuple(('apple', 'banana', 'cherry')) | tuple |
+| x = range(6) | range |
+| x = dict(name='John', age=36) | dict |
+| x = set(('apple', 'banana', 'cherry')) | set |
+| x = frozenset(('apple', 'banana', 'cherry')) | frozenset |
+| x = bool(5) | bool |
+| x = bytes(5) | bytes |
+| x = bytearray(5) | bytearray |
+| x = memoryview(bytes(5)) | memoryview |
 
 
 
