@@ -20,6 +20,6 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Changing the value of a tuple](pages/data.md#changing-the-values-of-a-tuple)
     - [Concatenating Tuples](pages/data.md#concatenating-tuples)
     - [Reversing Tuples](pages/dataa.md#reversing-tuples)
-  - [Sets](pages/data.md#sets)
+  - [Sets](/pages/data.md#sets)
 
 

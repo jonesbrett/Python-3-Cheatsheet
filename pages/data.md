@@ -1,4 +1,4 @@
-- [Return to Table of Contents](README.md)  
+- [Return to Table of Contents](README.md#table-of-contents)  
 
 # Data Types                                                                                          
 
