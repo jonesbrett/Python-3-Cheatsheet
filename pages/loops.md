@@ -74,3 +74,37 @@ else:
 # 5
 # i is no longer less than 6
 ```
+
+## The For Loop
+
+A 'for' loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a sting):
+
+```python
+# Print each fruit in a fruit list:
+fruits = ['apple', 'banana', 'cheery']
+for x in fruits:
+  print(x)
+
+apple
+banana
+cherry
+```
+
+## Looping Through a String
+
+Even strings are iterable objects, they contain a sequence of characters:
+
+```python
+for x in "banana":
+  print(x)
+
+b
+a
+n
+a
+n
+a
+```
+
+## The break Statement
+
