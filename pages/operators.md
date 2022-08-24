@@ -1,3 +1,5 @@
+- [Return to Table of Contents](/../../)  
+
 ## Arithmetic Operators
 
 Arithmetic operators are used with numeric values to perform common mathematical operators:
@@ -88,3 +90,5 @@ Bitwise operators are used to compare (binary) numbers:
 | ~ | NOT | Inverts all the bits |
 | \<< | Zero fill left shift | Shift left by pushing zeros in the the right and let the leftmost bits fall off |
 | >> | Signed right shift | Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
+
+- [Return to Table of Contents](/../../)  
