@@ -1,4 +1,4 @@
-- [Return to Table of Contents](Redirect.md)  
+- [Return to Table of Contents](/../../README.md)  
 
 # Data Types                                                                                          
 
