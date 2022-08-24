@@ -6,7 +6,7 @@
 Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Content
-- [Data Types](Data.md#data-types)
+- [Data Types](pages/data.md#data-types)
 - [Data Structures](Data.md#data-structures)
   - [Lists](Data.md#lists)
     - [List Items](Data.md#list-items)
