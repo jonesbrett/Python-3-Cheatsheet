@@ -6,6 +6,14 @@
 Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Contents
+- [Operators](pages/operators.md)
+  - [Arithmetic Operators](pages/operators.md)
+  - [Assignment operators]
+  - [Comparison operators]
+  - [Logical operators]
+  - [Identity operators]
+  - [Membership operators]
+  - [Bitwise operators]
 - [Data Types](pages/data.md#data-types)
 - [Data Structures](pages/data.md#data-structures)
   - [Lists](pages/data.md#lists)
