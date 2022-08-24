@@ -32,10 +32,10 @@ You can set the data type using the following constructors:
 | Example | Data Type |
 | ------- | --------- |
 | x = str('Hello World') | str |
-| x = int(20) | int |
+| x = int(20) | int | 
 | x = floar(20.5) | float |
 | x = complex(1j) | complex |
-| x = list(('apple', 'banana', 'cherry')) | list |
+| x = list(('apple', 'banana', 'cherry')) | list | 
 | x = tuple(('apple', 'banana', 'cherry')) | tuple |
 | x = range(6) | range |
 | x = dict(name='John', age=36) | dict |
@@ -212,6 +212,17 @@ The len() function returns the length of the tuple:
 tuple1 = ('1','2','3')
 len(tuple1)
 # 3
+```
+
+## Sets
+
+Sets are used to store multiple items in a single variable. Sets are a collection which are un-ordered,
+un-changeable and un-changeable. Sets are written with {curly brackets}:
+
+```python
+thisset = {'aplle', 'banana', 'cheery'}
+print(thisset)
+# {'cherry', 'apple', 'banana'} 
 ```
 
 - [Return to Table of Contents](/../../)
