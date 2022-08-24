@@ -1,6 +1,6 @@
+- [Return to Main menu](README.md)  
 
-
-# Data Types                                        - [Return to Main menu](README.md)                                                    
+# Data Types                                                                                          
 
 Data types are an important concept in programming. Variables store data of different types,
 which can do different things. Python has the following data types:
@@ -201,3 +201,4 @@ len(tuple1)
 # 3
 ```
 
+- [Return to Main menu](README.md)
