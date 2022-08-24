@@ -7,8 +7,8 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 
 # Table of Contents
 - [Operators](pages/operators.md)
-  - [Arithmetic Operators](pages/operators.md)
-  - [Assignment operators]
+  - [Arithmetic Operators](pages/operators.md#arithmetic-operators)
+  - [Assignment operators](pages/operators.md#assignment-operators)
   - [Comparison operators]
   - [Logical operators]
   - [Identity operators]
