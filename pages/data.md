@@ -60,7 +60,8 @@ Lists are used to store multiple items in a single value, Lists use [square brac
 ```python
 thislist = ['apple', 'banana', 'cherry']
 print(thilist)
-# 'apple', 'banana', 'cherry'
+
+'apple', 'banana', 'cherry'
 ```
 ### List Items
 
@@ -70,7 +71,8 @@ the first item has an index of [0], the second item [1]:
 ```python
 thislist = ['apple', 'banana', 'cherry']
 print(thilist[0])
-# 'apple'
+
+'apple'
 ```
 
 ### Changing the values of a list 
@@ -81,7 +83,8 @@ List are mutable, meaning that we can change them by, adding or removing items a
 thislist = ['apple', 'banana', 'cherry']
 newlist = thislist + ['orange']
 print(newlist)
-# ['apple', 'banana', 'cherry', 'orange']
+
+['apple', 'banana', 'cherry', 'orange']
 ```
 
 ### Duplicates are Allowed
@@ -91,7 +94,8 @@ List can have duplicate values:
 ```python
 thislist = ['apple', 'banana', 'cherry', 'apple']
 print(thislist)
-# ['apple', 'banana', 'cherry', 'apple']
+
+['apple', 'banana', 'cherry', 'apple']
 ```
 
 ### Length of List
@@ -126,7 +130,8 @@ Dictionaries are used to store data values in key:value pairs. Dictionaries are 
 ```python
 thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
 print(thisdict)
-# {'brand':'Ford', 'model':'Mustang', 'year:1964}
+
+{'brand':'Ford', 'model':'Mustang', 'year:1964}
 ```
 
 ### Dictionary Items
@@ -136,7 +141,8 @@ A dictionary is a collection which is ordered, changeable and do not all duplica
 ```python
 thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
 print(thisdict['brand'])
-# Ford
+
+Ford
 ```
 
 ## Tuples
@@ -169,7 +175,8 @@ newcolours = list(colours)
 newcolours[2] = 'blue'
 colours = tuple(newcolours)
 print(colours)
-# ('red', 'green', 'blue')
+
+('red', 'green', 'blue')
 ```
 ### Concatenating Tuples
 
@@ -181,7 +188,8 @@ tuple2 = ('a','b','c')
 
 output = tuple1 + tuple2
 print(output)
-# '1','2','3','a','b','c'
+
+'1','2','3','a','b','c'
 ```
 ### Reversing Tuples
 
@@ -223,7 +231,8 @@ un-changeable and un-changeable. Sets are written with {curly brackets}:
 ```python
 thisset = {'aplle', 'banana', 'cheery'}
 print(thisset)
-# {'cherry', 'apple', 'banana'} 
+
+{'cherry', 'apple', 'banana'} 
 ```
 
 - [Return to Table of Contents](/../../)

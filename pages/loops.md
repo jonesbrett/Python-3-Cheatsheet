@@ -10,11 +10,11 @@ while i < 6:
     print(i)
     i += 1
 
-# 1
-# 2
-# 3
-# 4
-# 5
+1
+2
+3
+4
+5
 ```
 
 ## The Break Statement
@@ -30,9 +30,9 @@ while i < 6:
         break
     i += 1
 
-# 1
-# 2
-# 3
+1
+2
+3
 ```
 
 ## The Continue Statement
@@ -48,11 +48,11 @@ while i < 6:
     continue
   print(i)
 
-  # 1
-  # 2   # Note that 3 is missing
-  # 4
-  # 5
-  # 6
+  1
+  2   # Note that 3 is missing
+  4
+  5
+  6
 ```
 ## The Else Statement
 
@@ -67,12 +67,12 @@ while i < 6:
 else:
   print("i is no longer less than 6")
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# i is no longer less than 6
+1
+2
+3
+4
+5
+i is no longer less than 6
 ```
 
 ## The For Loop
