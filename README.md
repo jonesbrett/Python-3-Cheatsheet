@@ -6,14 +6,7 @@
 Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Contents
-- [Operators](pages/operators.md)
-  - [Arithmetic Operators](pages/operators.md#arithmetic-operators)
-  - [Assignment operators](pages/operators.md#assignment-operators)
-  - [Comparison operators](pages/operators.md#comparison-operators)
-  - [Logical operators](pages/operators.md#logical-operators)
-  - [Identity operators](pages/operators.md#identity-operators)
-  - [Membership operators](pages/operators.md#membership-operators)
-  - [Bitwise operators](pages/operators.md#bitwise-operators)
+
 - [Data Types](pages/data.md#data-types)
 - [Data Structures](pages/data.md#data-structures)
   - [Lists](pages/data.md#lists)
@@ -30,5 +23,17 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Concatenating Tuples](pages/data.md#concatenating-tuples)
     - [Reversing Tuples](pages/dataa.md#reversing-tuples)
   - [Sets](/pages/data.md#sets)
-
-
+- [Operators](pages/operators.md)
+  - [Arithmetic Operators](pages/operators.md#arithmetic-operators)
+  - [Assignment operators](pages/operators.md#assignment-operators)
+  - [Comparison operators](pages/operators.md#comparison-operators)
+  - [Logical operators](pages/operators.md#logical-operators)
+  - [Identity operators](pages/operators.md#identity-operators)
+  - [Membership operators](pages/operators.md#membership-operators)
+  - [Bitwise operators](pages/operators.md#bitwise-operators)
+- [Loops](pages/loops.md)  
+  - [While Loops](pages/loops.md#while-loops)
+  - [For Loops](pages/loops.md#for-loops)
+  - [The Break Statement](pages/loops.md#the-break-statement)
+  - [The Continue Statement](pages/loops.md#the-contine-statement)
+  - [The Else Statement](pages/loops.md#the-else-statement)

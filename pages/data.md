@@ -23,6 +23,7 @@ You can get the data type of any object using the type() function:
 ```python
 x = 5
 print(type(x))
+# <class 'int'>
 ```
 
 ## Setting the Specific Data Type
