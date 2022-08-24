@@ -118,12 +118,25 @@ Lists can also be a combination of all data types:
 list = ['abc', 123, True]
 ```
 
+## Dictionaries
 
+Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:
 
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
+print(thisdict)
+# {'brand':'Ford', 'model':'Mustang', 'year:1964}
+```
 
+### Dictionary Items
 
+A dictionary is a collection which is ordered, changeable and do not all duplicates.
 
-
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
+print(thisdict['brand'])
+# Ford
+```
 
 ## Tuples
 
