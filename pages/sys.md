@@ -40,6 +40,15 @@ pprint(sys.path)
 sys.path.append('.') # ('.') will specify the root.
 
 
+# You can make this more dynamic using the following code to go up one folder:
+
+import sys
+
+from os.path import dirname, abspath
+d = dirname(dirname(abspath(__file__)))
+
+sys.path.append(d)
+
 ```
 
 - [Return to Table of Contents](/../../)
