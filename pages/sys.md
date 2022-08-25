@@ -1,28 +1,45 @@
 - [Return to Table of Contents](/../../)
 
-## sys — System-specific parameters and functions
+## Sys.Path.Append
 
-sys.path
-
-A list of sting that specifies the search path for modules. As initialized upon program startup, the first item of 
-this list, path[0], is the directory containing the script that was used to invoke the Python interpreter.
+Sys.path is a list of directories where the Python interpreter searches for modules. If you need to specify a different directory, you can append it to the list using the .append() to the sys.path:
 
 ```python
-# You can specify which directory you want to reference, ('.') references the root.
 import sys
-sys.path.append(".")
-from bs4 import BeautifulSoup
+from pprint import pprint
+pprint(sys.path)
 
-# The code above imports the 'sys' module and set the system path to the root and imports 'BeautifulSoup' from 
-# the folder called 'bs4'
+['c:\\Users\\Admin\\Desktop\\Python\\Sandbox',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin']
 
-#application
-#|
-#|--[bs4]
-#|
-#|--[folder]
-#      |
-#      |--script.py
+ import sys
+sys.path.append('c:\\Users\\Admin\\Desktop\\Python\\')
+from pprint import pprint
+pprint(sys.path)
+
+['c:\\Users\\Admin\\Desktop\\Python\\Sandbox',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin',
+ 'c:\\Users\\Admin\\Desktop\\Python\\']
+
+# You can specify which directory you want to reference, ('c:\\Users\\Admin\\Desktop\\Python\\').
+
+sys.path.append('.') # ('.') will specify the root.
+
+
 ```
 
 - [Return to Table of Contents](/../../)
