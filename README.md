@@ -44,6 +44,8 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Else in For Loop](pages/loops.md#else-in-for-loop) 
     - [Nested Loops](pages/loops.md#nested-loops) 
     - [The Pass Statement](pages/loops.md#the-pass-statement) 
+- [Data Import](pages/csvimportsqlite.md)
+  - [SQLite](pages/csvimportsqlite.md)
   
 - [Sys — System-Specific Parameters and Functions](pages/sys.md)
   - [Sys.Path.Append](pages/sys.md#syspathappend)
