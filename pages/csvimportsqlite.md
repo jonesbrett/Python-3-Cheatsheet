@@ -1,3 +1,7 @@
+- [Return to Table of Contents](/../../)  
+
+You can use the Pandas module to import data from a CSV file into a SQLite db:
+
 
 ```python
 # Import sqlite3 module
@@ -33,3 +37,5 @@ if prompt == "yes":
 print("closing connection")
 connection.close()
 ```
+
+- [Return to Table of Contents](/../../)  
