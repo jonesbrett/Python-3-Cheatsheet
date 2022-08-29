@@ -6,6 +6,8 @@
 Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Contents
+- [Python Syntax](pages/syntax.md)
+  -[Comments](pages/syntax.md#comments)
 
 - [Data Types](pages/data.md#data-types)
 - [Data Structures](pages/data.md#data-structures)
