@@ -8,6 +8,10 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 # Table of Contents
 - [Python Syntax](pages/syntax.md)
   - [Comments](pages/syntax.md#comments)
+  - [Numbers Representations](pages/syntax.md#numerical-representations)
+  - [Scientific Notation](pages/syntax.md#scientific-notation)
+  - [Octal Numbers](pages/syntax.md#octal-numbers)
+  - [Hexadecimal Numbers](pages/syntax.md#hexadecimal-numbers)
 
 - [Data Types](pages/data.md#data-types)
 - [Data Structures](pages/data.md#data-structures)
