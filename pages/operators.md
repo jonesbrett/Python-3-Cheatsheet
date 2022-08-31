@@ -18,7 +18,7 @@ The following operators are considered as basic operators:
 The print operator has two additional operators:
 
 | Operator | Function | Example | Ouput |
-| -------- | ---- | ------- |
+| -------- | ---- | ------- | ----- |
 | end= | Denotes what to place at the end of the print statement | print('Hello World', end='!') | Hello World! |
 | sep= | Denote what use a separating index | print('Hello World', sep='#') | Hello#World |
 
