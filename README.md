@@ -17,6 +17,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 
 - [Operators](pages/operators.md)
   - [Basic Operators](pages/operators.md#basic-operators)
+  - [Print Operators](pages/operators.md#print-operators)
   - [Unary Operators](pages/operators.md#unary-operators)
   - [Arithmetic Operators - (Binary Operators)](pages/operators.md#arithmetic-operators---binary-operators)
   - [Assignment operators](pages/operators.md#assignment-operators)
