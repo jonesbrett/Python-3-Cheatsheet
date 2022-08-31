@@ -8,7 +8,7 @@ The following operators are considered as basic operators:
 | -------- | ---- | ------- |
 | input() | Prompts the user to enter a value | input('What is your name: ?') |
 | print() | Prints to the console | Hello World |
-| int() | | Specifies the value is a integer | age = int(38) |
+| int() | Specifies the value is a integer | age = int(38) |
 | float() | Specifies the value is float | age = float(38.5) |
 | str() | Specifies that the value is a string | name = str(Brett) |
 | len() | Specifies the length of a object | len(Brett) is 5 |
@@ -20,7 +20,7 @@ The print operator has two additional operators:
 | Operator | Function | Example | Ouput |
 | -------- | ---- | ------- | ----- |
 | end= | Denotes what to place at the end of the print statement | print('Hello World', end='!') | Hello World! |
-| sep= | Denote what use a separating index | print('Hello World', sep='#') | Hello#World |
+| sep= | Denote what use a separating index | print('Hello', 'World', sep='#') | Hello#World |
 
 ## Unary Operators
 
