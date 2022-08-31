@@ -60,6 +60,16 @@ print(0.000000000000000000000000005)
 5e-27
 ```
 
+## Accuracy of Floating-point Numbers
+
+Float numbers are not 100% accurate:
+
+```python
+print(0.1 + 0.1 + 0.1)
+
+0.30000000000000004
+```
+
 ## Octal Numbers
 
 Octal Numbers start with 0O or 0o:
@@ -78,6 +88,24 @@ Hexadecimal Numbers start with 0X or 0x:
 print(0x123)
 
 291
+```
+## String Formmatting
+
+Concatenating two strings with the + sign:
+
+```python
+text = 'hokus' + 'pokus'
+print(text)
+
+hokuspokus
+```
+
+Multipling strings with the * sign:
+
+```python
+print('hokus' * 5)
+
+hokushokushokushokushokus
 ```
 
 

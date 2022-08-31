@@ -1,18 +1,41 @@
 - [Return to Table of Contents](/../../)  
 
-## Arithmetic Operators
+## Basic Operators
+
+The following operators are considered as basic operators:
+
+| Operator | Function | Example |
+| -------- | ---- | ------- |
+| input() | Prompts the user to enter a value | input('What is your name: ?') |
+| print() | Prints to the console | Hello World |
+| int() | | Specifies the value is a integer | age = int(38) |
+| float() | Specifies the value is float | age = float(38.5) |
+| str() | Specifies that the value is a string | name = str(Brett) |
+| len() | Specifies the length of a object | len(Brett) is 5 |
+
+
+## Unary Operators
+
+Unary operators have a + or - sign infornt of the value:
+
+-2
++5
+
+
+## Arithmetic Operators - (Binary Operators)
 
 Arithmetic operators are used with numeric values to perform common mathematical operators:
 
-| Operator | Name | Example |
-| -------- | ---- | ------- |
-| + | Addition | x + Y |
-| - | Subtraction | x - y |
-| * | Multiplication | x * Y |
-| / | Division | X / y |
-| % | Modulus | x % y |
-| ** | Exponentiation | x ** y |
-| // | Floor division | x // y |
+| Operator | Name | Example | Order of Operators |
+| -------- | ---- | ------- | ------------------ |
+| ** | Exponentiation | x ** y | 1st | - # These are calculated from right to left: 2 ** 2 ** 3 = 2 ** (2 ** 3)
+| * | Multiplication | x * Y | 2nd |
+| / | Division | X / y | 2nd |
+| // | Floor division | x // y | 2nd |
+| % | Modulus | x % y | 2nd |
+| + | Addition | x + Y | 3rd |
+| - | Subtraction | x - y | 3rd |
+
 
 ## Assignment Operators
 
@@ -59,6 +82,7 @@ Logical operators are used to combine conditional statements:
 | or | Returns True if one of the statements is true | x \< 5 or x \< 4 |
 | not | Reverse the result, returns False if the result is true | not(x \< 5 and x \< 10) |
 
+
 ## Identity Operators
 
 Identity operators are used to compare the objects, not if they equal, but if they are actually the same object,
@@ -69,6 +93,7 @@ with the same memory location:
 | is | Returns True if both variables are the same object | x is y |
 | is not | Returns True if bot varilables are not the same object | x is not y |
 
+
 ## Membership Operators
 
 Membership operators are used to test if a sequence is presented in an object:
@@ -77,6 +102,7 @@ Membership operators are used to test if a sequence is presented in an object:
 | -------- | ------------| ------- |
 | in | Returns True if a sequence with the specified value is present in the object | x in y |
 | not in | Returns True if a sequence with a specified value is not present in the object | x not in y |
+
 
 ## Bitwise Operators
 
@@ -90,5 +116,8 @@ Bitwise operators are used to compare (binary) numbers:
 | ~ | NOT | Inverts all the bits |
 | \<< | Zero fill left shift | Shift left by pushing zeros in the the right and let the leftmost bits fall off |
 | >> | Signed right shift | Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
+
+
+
 
 - [Return to Table of Contents](/../../)  
