@@ -74,6 +74,15 @@ print(thilist[0])
 
 'apple'
 ```
+You can also specify the reverse order of a List using a negative index, 
+the last value would be [-1] and the second last [-2]:
+
+```python
+thislist = ['apple', 'banana', 'cherry']
+print(thilist[-1])
+
+'cherry'
+```
 
 ### Changing the values of a list 
 
@@ -125,7 +134,7 @@ list = ['abc', 123, True]
 
 ### Mapping Data to a List
 
-You can map data to multiple values in a list using the map funtion, for example if the user had entered 3 and 4:
+You can map data to multiple values in a List using the map funtion, for example if the user had entered 3 and 4:
 
 ```python
 a, b = list(map(int, input("enter two digits").split()))
@@ -139,18 +148,18 @@ print(a + b)
 Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:
 
 ```python
-thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
 print(thisdict)
 
-{'brand':'Ford', 'model':'Mustang', 'year:1964}
+{'brand':'Ford', 'model':'Mustang', 'year':1964}
 ```
 
 ### Dictionary Items
 
-A dictionary is a collection which is ordered, changeable and do not all duplicates.
+A Dictionary is a collection which is ordered, changeable and do not all duplicates.
 
 ```python
-thisdict = {'brand':'Ford', 'model':'Mustang', 'year:1964}
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
 print(thisdict['brand'])
 
 Ford
@@ -158,27 +167,27 @@ Ford
 
 ## Tuples
 
-A tuple is a collection which is ordered, indexed and immutable (they can not be changed):
+A Tuple is a collection which is ordered, indexed and immutable (they can not be changed):
 
 ```python
 t = ('a','b','c')
-t = 'a','b'.'c'     # Note tuples can be written without the brackets too.
+t = 'a','b','c'     # Note Tuples can be written without the brackets too.
 ```
-### Tuples items
+### Tuples Items
 
-A tuple can also have a single item in them too, but it needs to have a comma after it:
+A Tuple can also have a single item in them too, but it needs to have a comma after it:
 
 ```python
-a = (1,)    # a is the tuple (1,)
-a = (1)     # a is the value and not a tuple
+a = (1,)    # a is the Tuple (1,)
+a = (1)     # a is the value and not a Tuple
 
-a = 1,    # a is the tuple (1,)
-a = 1     # a is the value and not a tuple
+a = 1,    # a is the Tuple (1,)
+a = 1     # a is the value and not a Tuple
 ```
 ### Changing the values of a Tuple
 
-Changing the values of tuples, can only be done if you convert the tuple to a list first and
-then back to a tuple afterwards:
+Changing the values of tuples, can only be done if you convert the Tuple to a List first and
+then back to a Tuple afterwards:
 
 ```python
 colours = ('red','green','black')
@@ -191,7 +200,7 @@ print(colours)
 ```
 ### Concatenating Tuples
 
-You can Concatenate tuples useing the + sign:
+You can Concatenate Tuples using the + sign:
 
 ```python
 tuple1 = ('1','2','3')
@@ -204,7 +213,7 @@ print(output)
 ```
 ### Reversing Tuples
 
-Reversing the order of tuple:
+Reversing the order of Tuple:
 
 ```python
 colours = ('red','green','blue')
@@ -215,7 +224,7 @@ colours = rev
 ```
 ### The Max() and Min() function
 
-The max() and min() functions in tuples:
+The max() and min() functions in Tuples:
 
 ```python
 tuple1 = ('1','2','3')
@@ -226,7 +235,7 @@ min(tuple1)
 ```
 ### Length of tuples
 
-The len() function returns the length of the tuple:
+The len() function returns the length of the Tuple:
 
 ```python
 tuple1 = ('1','2','3')

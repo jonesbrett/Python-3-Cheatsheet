@@ -2,7 +2,7 @@
 
 ## Comments
 
-Comments are used to explain the code and to make it more readable:
+The # sign is used to create comments, comments are used to explain the code and to make it more readable:
 
 ```python
 # This is a print statement which will diaplay, Hello World!
@@ -19,7 +19,7 @@ print('Hello World!') #This is a print statement which will diaplay, Hello World
 Hello World!
 ```
 
-Comments can also be used to ingore lines of code:
+The # sign can also be used to ingore lines of code:
 
 ```python
 # This is a print statement which will diaplay, Hello World!
@@ -125,7 +125,7 @@ hokus!pokus!
 The 'sep' keyword can be used to specify the seperator of a string with a defined attribute.
 
 ```python
-print =("hokus", "pokus", sep='!')
+print("hokus", "pokus", sep='!')
 
 hokus!pokus
 
