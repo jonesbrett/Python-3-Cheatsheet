@@ -30,7 +30,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
   - [Bitwise operators](pages/operators.md#bitwise-operators)
 
 - [Data Types](pages/data.md#data-types)
-- [Data Collection](pages/data.md#data-collections)
+- [Data Collections](pages/data.md#data-collections)
   - [Lists](pages/data.md#lists)
     - [List Items](pages/data.md#list-items)
     - [Changing the values of a List](pages/data.md#changing-the-values-of-a-list)
