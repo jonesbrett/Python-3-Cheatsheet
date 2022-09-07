@@ -35,6 +35,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Duplicates are Allowed](pages/data.md#duplicates-are-allowed)
     - [Length of List](pages/data.md#length-of-list)
     - [List - Data Types](pages/data.md#list---data-types)
+    - [Mapping Data to a List](pages/data.md#mapping-data-to-a-list)
   - [Dictionaries](pages/data.md#dictionaries)
     - [Dictionary Items](pages/data.md#dictionary-items)
   - [Tuples](pages/data.md#tuples)

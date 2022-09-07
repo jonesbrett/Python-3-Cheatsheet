@@ -17,7 +17,7 @@ while i < 6:
 5
 ```
 
-## The Break Statement
+### The Break Statement
 
 With the 'break' statement we can stop the loop even if the 'while' condition is true:
 
@@ -35,7 +35,7 @@ while i < 6:
 3
 ```
 
-## The Continue Statement
+### The Continue Statement
 
 With the 'continue' stateement we can stop the current iteration, and contine with the next:
 
@@ -54,7 +54,7 @@ while i < 6:
   5
   6
 ```
-## The Else Statement
+### The Else Statement
 
 With the 'else' statement we can run a block of code once then the condition no longer is true:
 
@@ -90,7 +90,7 @@ banana
 cherry
 ```
 
-## Looping Through a String
+### Looping Through a String
 
 Even strings are iterable objects, they contain a sequence of characters:
 
@@ -107,7 +107,7 @@ n
 a
 ```
 
-## The Break Statement
+### The Break Statement
 
 With the 'break' statement we can stop the loop before it has looed through all the items:
 
@@ -134,7 +134,7 @@ for x in fruits:
 apple
 ```
 
-## The Continue Statement
+### The Continue Statement
 
 With the 'continue' statement we can stop the current iteration of the loop, and continue with the next:
 
@@ -151,7 +151,7 @@ apple
 cherry 
 ```
 
-## The range() Function
+### The range() Function
 
 To loop through a set of code a specified number of time, we can use the range() function, the range() function retunrs a sequence of numbers, starting from 0 (by defaul)t, and increments by 1 (by default), and ends at a specified number:
 
@@ -199,12 +199,12 @@ for x in range(2, 30, 3):
 29 
 ```
 
-## The Else in For Loops
+### The Else in For Loops
 
 The 'else' keyword in a 'for' loop specifies a block of code to be exercuted when the loop is finished:
 
 ```python
-#for x in range(6):
+for x in range(6):
   print(x)
 else:
   print("Finally finished!")  
@@ -222,7 +222,8 @@ Finally finished!
 # Break the loop when x is 3, and see what happens with the else block:
 
 for x in range(6):
-  if x == 3: break
+  if x == 3:
+    break
   print(x)
 else:
   print("Finally finished!") 
@@ -231,7 +232,7 @@ else:
 2 
 ```
 
-## Nested Loops
+### Nested Loops
 
 A nested loop is a loop inside a loop. The 'inner loop' will be executed one time for each iteration of the 'outer loop':
 
@@ -255,7 +256,7 @@ tasty banana
 tasty cherry 
 ```
 
-## The Pass Statement
+### The Pass Statement
 
 The 'for' loops cannot be empty, but if you for some reason have a 'for' loop with no content, then put the 'pass' statement 
  to aviod getting an error:

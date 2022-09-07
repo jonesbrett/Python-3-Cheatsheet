@@ -123,6 +123,17 @@ Lists can also be a combination of all data types:
 list = ['abc', 123, True]
 ```
 
+### Mapping Data to a List
+
+You can map data to multiple values in a list using the map funtion, for example if the user had entered 3 and 4:
+
+```python
+a, b = list(map(int, input("enter two digits").split()))
+print(a + b)
+
+7
+```
+
 ## Dictionaries
 
 Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:

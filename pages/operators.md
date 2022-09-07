@@ -15,12 +15,13 @@ The following operators are considered as basic operators:
 
 ## Print Operators
 
-The print operator has two additional operators:
+The print operator has three additional operators:
 
 | Operator | Function | Example | Ouput |
 | -------- | ---- | ------- | ----- |
 | end= | Denotes what to place at the end of the print statement | print('Hello World', end='!') | Hello World! |
 | sep= | Denote what use a separating index | print('Hello', 'World', sep='#') | Hello#World |
+| + | Concatenates two string together | print('Hello' + 'World') | HelloWorld |
 
 ## Unary Operators
 
@@ -37,9 +38,9 @@ Arithmetic operators are used with numeric values to perform common mathematical
 | Operator | Name | Example | Order of Operators |
 | -------- | ---- | ------- | ------------------ |
 | ** | Exponentiation | x ** y | 1st | - # These are calculated from right to left: 2 ** 2 ** 3 = 2 ** (2 ** 3)
+| // | Floor division | x // y | 1nd |
 | * | Multiplication | x * Y | 2nd |
 | / | Division | X / y | 2nd |
-| // | Floor division | x // y | 2nd |
 | % | Modulus | x % y | 2nd |
 | + | Addition | x + Y | 3rd |
 | - | Subtraction | x - y | 3rd |
