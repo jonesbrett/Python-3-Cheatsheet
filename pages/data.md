@@ -49,9 +49,9 @@ You can set the data type using the following constructors:
 
 
 
-# Data Structures
+# Data Collections
 
-There are four different types of Data Structure, Lists, Dictionaries, Tuples and Sets:
+There are four different types of Data Collections which are built into Python, Lists, Dictionaries, Tuples and Sets:
 
 ## Lists
 
@@ -237,7 +237,8 @@ len(tuple1)
 ## Sets
 
 Sets are used to store multiple items in a single variable. Sets are a collection which are un-ordered,
-un-changeable and un-changeable. Sets are written with {curly brackets}:
+un-indexed and does not allow duplicates. Sets do not support indexing, slicing or any other squence-like behavior.
+Sets are written with {curly brackets}:
 
 ```python
 thisset = {'aplle', 'banana', 'cheery'}
@@ -245,5 +246,10 @@ print(thisset)
 
 {'cherry', 'apple', 'banana'} 
 ```
+
+## Frozensets
+
+Frozenset are immutable, therefore they can not be changed after creation.
+
 
 - [Return to Table of Contents](/../../)

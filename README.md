@@ -30,7 +30,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
   - [Bitwise operators](pages/operators.md#bitwise-operators)
 
 - [Data Types](pages/data.md#data-types)
-- [Data Structures](pages/data.md#data-structures)
+- [Data Collection](pages/data.md#data-collections)
   - [Lists](pages/data.md#lists)
     - [List Items](pages/data.md#list-items)
     - [Changing the values of a List](pages/data.md#changing-the-values-of-a-list)
@@ -46,6 +46,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
     - [Concatenating Tuples](pages/data.md#concatenating-tuples)
     - [Reversing Tuples](pages/dataa.md#reversing-tuples)
   - [Sets](/pages/data.md#sets)
+    - [Frozensets](pages/data.md#frozensets)
 
 - [Loops](pages/loops.md)  
   - [While Loops](pages/loops.md#the-while-loop)
