@@ -3,7 +3,7 @@
   
 </p>
 
-Wellcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
+Welcome to my Cheat Sheet page, this is work in progress to assist me and any others who may find it useful.
 
 # Table of Contents
 - [Python Syntax](pages/syntax.md)
@@ -32,21 +32,21 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
 - [Data Types](pages/data.md#data-types)
 - [Data Collections](pages/data.md#data-collections)
   - [Lists](pages/data.md#lists)
-    - [List Items](pages/data.md#list-items)
-    - [Changing the values of a List](pages/data.md#changing-the-values-of-a-list)
-    - [Duplicates are Allowed](pages/data.md#duplicates-are-allowed)
-    - [Length of List](pages/data.md#length-of-list)
-    - [List - Data Types](pages/data.md#list---data-types)
-    - [Mapping Data to a List](pages/data.md#mapping-data-to-a-list)
+#    - [List Items](pages/data.md#list-items)
+#   - [Changing the values of a List](pages/data.md#changing-the-values-of-a-list)
+#    - [Duplicates are Allowed](pages/data.md#duplicates-are-allowed)
+#    - [Length of List](pages/data.md#length-of-list)
+#    - [List - Data Types](pages/data.md#list---data-types)
+#    - [Mapping Data to a List](pages/data.md#mapping-data-to-a-list)
   - [Dictionaries](pages/data.md#dictionaries)
-    - [Dictionary Items](pages/data.md#dictionary-items)
+#    - [Dictionary Items](pages/data.md#dictionary-items)
   - [Tuples](pages/data.md#tuples)
-    - [Tuples with one item](pages/data.md#tuples-items)
-    - [Changing the value of a Tuple](pages/data.md#changing-the-values-of-a-tuple)
-    - [Concatenating Tuples](pages/data.md#concatenating-tuples)
-    - [Reversing Tuples](pages/dataa.md#reversing-tuples)
+#    - [Tuples with one item](pages/data.md#tuples-items)
+#    - [Changing the value of a Tuple](pages/data.md#changing-the-values-of-a-tuple)
+#    - [Concatenating Tuples](pages/data.md#concatenating-tuples)
+#    - [Reversing Tuples](pages/dataa.md#reversing-tuples)
   - [Sets](/pages/data.md#sets)
-    - [Frozensets](pages/data.md#frozensets)
+#    - [Frozensets](pages/data.md#frozensets)
 
 - [Loops](pages/loops.md)  
   - [While Loops](pages/loops.md#the-while-loop)
