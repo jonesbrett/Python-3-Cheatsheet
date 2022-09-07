@@ -16,7 +16,7 @@ which can do different things. Python has the following data types:
 | Binary Types | bytes, bytearray, memoryview |
 | None Types | NoneType |
 
-## Getting the Data Type
+### Getting the Data Type
 
 You can get the data type of any object using the type() function:
 
@@ -26,7 +26,7 @@ print(type(x))
 # <class 'int'>
 ```
 
-## Setting the Specific Data Type
+### Setting the Specific Data Type
 
 You can set the data type using the following constructors:
 
@@ -175,7 +175,7 @@ a = (1)     # a is the value and not a tuple
 a = 1,    # a is the tuple (1,)
 a = 1     # a is the value and not a tuple
 ```
-### Changing the values of a tuple
+### Changing the values of a Tuple
 
 Changing the values of tuples, can only be done if you convert the tuple to a list first and
 then back to a tuple afterwards:

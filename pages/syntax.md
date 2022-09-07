@@ -108,7 +108,29 @@ print('hokus' * 5)
 hokushokushokushokushokus
 ```
 
+### The End Keyword
 
+The 'end' keyword can be used to aviod a new line and specify the end of a string with a defined attribute.
+
+```python
+text = ["hokus", "pokus"]
+for words in text:
+    print(words, end="!")
+
+hokus!pokus!
+```
+
+### The Sep Keyword
+
+The 'sep' keyword can be used to specify the seperator of a string with a defined attribute.
+
+```python
+print =("hokus", "pokus", sep='!')
+
+hokus!pokus
+
+#Note there is no exclamation after 'pokus'
+```
 
 
 

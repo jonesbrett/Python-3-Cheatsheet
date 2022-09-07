@@ -14,6 +14,8 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
   - [Octal Numbers](pages/syntax.md#octal-numbers)
   - [Hexadecimal Numbers](pages/syntax.md#hexadecimal-numbers)
   - [String Formmatting](pages/syntax.md#string-formmatting)
+  - [The End Keyword](pages/syntax.md#the-end-keyword)
+  - [The Sep Keyword](pages/syntax.md#the-sep-keyword)
 
 - [Operators](pages/operators.md)
   - [Basic Operators](pages/operators.md#basic-operators)
@@ -46,7 +48,7 @@ Wellcome to my Cheat Sheet page, this is work in progress to assist me and any o
   - [Sets](/pages/data.md#sets)
 
 - [Loops](pages/loops.md)  
-  - [While Loops](pages/loops.md#while-loops)
+  - [While Loops](pages/loops.md#the-while-loop)
     - [The Break Statement](pages/loops.md#the-break-statement)
     - [The Continue Statement](pages/loops.md#the-contine-statement)
     - [The Else Statement](pages/loops.md#the-else-statement)
