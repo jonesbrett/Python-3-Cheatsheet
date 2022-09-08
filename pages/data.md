@@ -96,6 +96,15 @@ print(newlist)
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
+Removing values from a list can be done using the indexing:
+
+```python
+newlist = ['apple', 'banana', 'cherry', 'orange']
+del newlist[0]
+print(newlist)
+
+['banana', 'cherry', 'orange']
+
 ### Duplicates are Allowed
 
 List can have duplicate values:
