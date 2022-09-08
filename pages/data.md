@@ -96,7 +96,7 @@ print(newlist)
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
-Removing values from a List can be done using the indexing:
+Removing values from a List can be done using indexing:
 
 ```python
 newlist = ['apple', 'banana', 'cherry', 'orange']
