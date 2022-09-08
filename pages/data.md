@@ -84,7 +84,7 @@ print(thilist[-1])
 'cherry'
 ```
 
-### Changing the values of a list 
+### Changing the values of a List 
 
 List are mutable, meaning that we can change them by, adding or removing items after they are created:.
 
@@ -96,7 +96,7 @@ print(newlist)
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
-Removing values from a list can be done using the indexing:
+Removing values from a List can be done using the indexing:
 
 ```python
 newlist = ['apple', 'banana', 'cherry', 'orange']
@@ -118,7 +118,7 @@ print(thislist)
 
 ### Length of List
 
-The len() function returns the length of the list:
+The len() function returns the length of the List:
 
 ```python
 thislist = ['apple', 'banana', 'cherry', 'apple']
