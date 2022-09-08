@@ -104,6 +104,7 @@ del newlist[0]
 print(newlist)
 
 ['banana', 'cherry', 'orange']
+```
 
 ### Duplicates are Allowed
 
