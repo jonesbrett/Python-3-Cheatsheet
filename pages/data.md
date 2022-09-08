@@ -86,7 +86,7 @@ print(thilist[-1])
 
 ### Changing the values of a List 
 
-List are mutable, meaning that we can change them by, adding or removing items after they are created:.
+List are mutable, meaning that we can change them by, adding or removing items after they are created:
 
 ```python
 thislist = ['apple', 'banana', 'cherry']
@@ -94,6 +94,26 @@ newlist = thislist + ['orange']
 print(newlist)
 
 ['apple', 'banana', 'cherry', 'orange']
+```
+
+You can aslo use the '.append' method to add values to the end of a List:
+
+```python
+thislist = ['apple', 'banana', 'cherry']
+thislist.append('orange')
+print(thislist)
+
+['apple', 'banana', 'cherry', 'orange']
+```
+
+Or you can use the '.insert' method to add values using indexing:
+
+```python
+thislist = ['apple', 'banana', 'cherry']
+thislist.insert(1, 'orange')
+print(thislist)
+
+['apple', 'orange', 'banana', 'cherry']
 ```
 
 Removing values from a List can be done using indexing:
