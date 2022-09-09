@@ -33,8 +33,8 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
 
 - [Data Collections](pages/data.md#data-collections)
   - [Lists](pages/data.md#lists)
-  - [Dictionaries](pages/data.md#dictionaries)
   - [Tuples](pages/data.md#tuples)
+  - [Dictionaries](pages/data.md#dictionaries)
   - [Sets](/pages/data.md#sets)
  
 

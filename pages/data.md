@@ -160,6 +160,8 @@ Lists can also be a combination of all data types:
 
 ```python
 list = ['abc', 123, True]
+
+# Note that you should use a List if the values are of a different type. In such cases Tuples are better to use.
 ```
 
 ### Mapping Data to a List
@@ -206,27 +208,35 @@ print(sorted(thislist))
 ['apple', 'banana', 'cherry', 'orange']
 ```
 
-## Dictionaries
+### Copying Lists
 
-Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:
-
-```python
-thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
-print(thisdict)
-
-{'brand':'Ford', 'model':'Mustang', 'year':1964}
-```
-
-### Dictionary Items
-
-A Dictionary is a collection which is ordered, changeable and do not all duplicates.
+List names are only reference points to the memory location of the List, so when you change the List,
+it will effect both Lists:
 
 ```python
-thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
-print(thisdict['brand'])
+thislist = ["cherry", "orange", "apple", "banana"]
+newlist = thislist
+thislist.append('grape')
+Print('Original:', thislist, '\nNewlist: ', newlist)
 
-Ford
+Original: ['cherry', 'orange', 'apple', 'banana', 'grape'] 
+Newlist:  ['cherry', 'orange', 'apple', 'banana', 'grape']
+
+# Note that both the Lists are the same.
 ```
+
+To create a duplicate of the original List you need to use slicing:
+
+```python
+thislist = ["cherry", "orange", "apple", "banana"]
+newlist = thislist[:]
+thislist.append('grape')
+Print('Original:', thislist, '\nNewlist: ', newlist)
+
+Original: ['cherry', 'orange', 'apple', 'banana', 'grape'] 
+Newlist:  ['cherry', 'orange', 'apple', 'banana']
+```
+
 
 ## Tuples
 
@@ -304,6 +314,53 @@ The len() function returns the length of the Tuple:
 tuple1 = ('1','2','3')
 len(tuple1)
 # 3
+```
+
+## Dictionaries
+
+Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:
+
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
+print(thisdict)
+
+{'brand':'Ford', 'model':'Mustang', 'year':1964}
+```
+
+### Dictionary Items
+
+A Dictionary is a collection which is ordered, changeable and do not all duplicates.
+
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
+print(thisdict['brand'])
+
+Ford
+```
+
+### keys and Values in Dictionaries
+
+To view the key in a Dictionary you use the '.key()' methond:
+
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
+for element in thisdict.keys():
+    print(element)
+
+brand
+model
+year
+```
+To view the vales in a Dictionary you use the '.values()' methond:
+
+```python
+thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
+for element in thisdict.values():
+    print(element)
+
+Ford
+Mustang
+1964
 ```
 
 ## Sets
