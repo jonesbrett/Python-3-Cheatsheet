@@ -351,7 +351,7 @@ brand
 model
 year
 ```
-To view the vales in a Dictionary you use the '.values()' methond:
+To view the values in a Dictionary you use the '.values()' methond:
 
 ```python
 thisdict = {'brand':'Ford', 'model':'Mustang', 'year':1964}
@@ -361,6 +361,17 @@ for element in thisdict.values():
 Ford
 Mustang
 1964
+```
+To view both the key and values in a dictionary you use the .item() method:
+
+```python
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+for x, y in thisdict.items():
+    print(x, y)
+
+brand Ford
+model Mustang
+year 1964
 ```
 
 ## Sets

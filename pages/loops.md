@@ -75,6 +75,39 @@ else:
 i is no longer less than 6
 ```
 
+### The While 'True' Loop through a Dictionary
+
+While the condition is True loop through the Dictionary until the break:
+
+```python 
+sample_dict = {
+    "mouth": "Mund",
+    "finger": "Finger",
+    "leg": "Bein",
+    "hand": "Hand",
+    "face": "Gesicht",
+    "nose": "Nase",
+}
+while True:
+    word = input("Enter a word in English or EXIT: ")
+    if word == "EXIT":
+        break
+    if word in sample_dict:
+        print("Translation:", sample_dict[word])
+    else:
+        print("No match!")
+
+print("Bye!")
+
+Enter a word in English or EXIT: cat
+No match!
+Enter a word in English or EXIT: nose
+Translation: Nase
+Enter a word in English or EXIT: EXIT
+Bye!
+```
+
+
 ## The For Loop
 
 A 'for' loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a sting):
