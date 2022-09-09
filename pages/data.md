@@ -143,6 +143,39 @@ print(a + b)
 7
 ```
 
+### Sorting Lists
+
+You can sort Lists with the '.sort()' method:
+
+```python
+thislist = ["cherry", "orange", "apple", "banana"]
+thislist.sort()
+print(thislist)
+
+['apple', 'banana', 'cherry', 'orange']
+```
+
+You can reverse the sorted List using the '.sort(reverse=True)' method:
+
+```python
+thislist = ["cherry", "orange", "apple", "banana"]
+thislist.sort(reverse=True)
+print(thislist)
+
+['orange', 'cherry', 'banana', 'apple']
+
+# Note that when using the sort method, you can not un-sort once done.
+```
+
+To keep the original order in the List and sort the output, you use the 'sorted' function:
+
+```python
+thislist = ["cherry", "orange", "apple", "banana"]
+print(sorted(thislist))
+
+['apple', 'banana', 'cherry', 'orange']
+```
+
 ## Dictionaries
 
 Dictionaries are used to store data values in key:value pairs. Dictionaries are written with {curly brackets}:
