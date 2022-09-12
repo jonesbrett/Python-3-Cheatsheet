@@ -52,7 +52,7 @@ Suprise!
 New Suprise!
 Surprise!
 
-# Note, you can over write the global variable from with in the function using the 'global' command:
+# Note, you can over write the global variable from within the function using the 'global' command:
 
 def show_truth():
     global mysterious_var
@@ -67,4 +67,20 @@ print(mysterious_var)
 Suprise!
 New Suprise!
 New Suprise!
+
+# Note, you can also '.append' to 'Global' veriables within the function:
+
+def show_truth():
+    mysterious_var.append("New Surprise!")
+    print(mysterious_var)
+
+
+mysterious_var = ["Surprise!"]
+print(mysterious_var)
+show_truth()
+print(mysterious_var)
+
+['Surprise!']
+['Surprise!', 'New Surprise!']
+['Surprise!', 'New Surprise!']
 ```

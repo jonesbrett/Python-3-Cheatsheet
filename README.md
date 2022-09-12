@@ -41,7 +41,7 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
   - [While Loops](pages/loops.md#the-while-loop)
   - [For Loops](pages/loops.md#for-loops)
 
-- [Functions](pages)/functions.md)
+- [Functions](pages/functions.md)
 
 - [Data Import](pages/csvimportsqlite.md)
   - [SQLite](pages/csvimportsqlite.md)
