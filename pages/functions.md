@@ -1,4 +1,50 @@
-## Functions
+- [Return to Table of Contents](/../../)  
+
+### The Print Function
+
+Print is a built in function which displays output to the terminal:
+
+```python
+print('Hello World!')
+
+Hello World!
+```
+Print has two optional parameters, 'sep' and 'end'. The 'sep' for separator, specify how to 
+separator the objects, the end for end specifies what to print at the end (the default is a new line(\n)):
+
+```python
+print("1", "2", "3", "4", "5", sep="-")
+
+1-2-3-4-5
+
+print("1", "2", "3", "4", "5", end="-")
+
+1 2 3 4 5-
+```
+
+### The Length Function
+
+The Length function gives you the number of elements in a collection:
+
+```python
+print(len('Hello World!'))
+
+12
+```
+
+### The Input Function
+
+The Input prompts for user input:
+
+```python
+number = input('What is the number?: ')
+print(number)
+
+What is the number?: 25
+25
+```
+
+### Defining your own Function
 
 You can define your own Functions using 'def' for definision:
 
@@ -68,7 +114,7 @@ Suprise!
 New Suprise!
 New Suprise!
 
-# Note, you can also '.append' to 'Global' veriables within the function:
+# Note, you can also '.append' to 'Global' veriables within the function, (List and Dictionaries only):
 
 def show_truth():
     mysterious_var.append("New Surprise!")
@@ -84,3 +130,4 @@ print(mysterious_var)
 ['Surprise!', 'New Surprise!']
 ['Surprise!', 'New Surprise!']
 ```
+- [Return to Table of Contents](/../../)  
