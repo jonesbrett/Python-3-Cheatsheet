@@ -132,6 +132,32 @@ hokus!pokus
 #Note there is no exclamation after 'pokus'
 ```
 
+### Splitting Strings
+
+We can split string using the '.split(delimiter)' argument, if we don't specify the argument it
+defaults to spaces.
+
+string_name.split(delimiter)
+
+```python
+man_its_a_hot_one = "Like seven inches from the midday sun"
+print(man_its_a_hot_one.split())
+
+['Like', 'seven', 'inches', 'from', 'the', 'midday', 'sun']
+```
+
+### Joining Strings
+
+You can join string using the '.join()' method, the argument now refers to the list and the delimiter
+is at the beginning.
+
+'delimiter'.join(list_you_want_to_join)
+
+```python
+my_munequita = ['My', 'Spanish', 'Harlem', 'Mona', 'Lisa']
+print(' '.join(my_munequita))
+'My Spanish Harlem Mona Lisa'
+```
 
 
 
