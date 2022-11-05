@@ -13,9 +13,8 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
   - [Accuracy of Floating-point Numbers](pages/syntax.md#accuracy-of-floating-point-numbers)
   - [Octal Numbers](pages/syntax.md#octal-numbers)
   - [Hexadecimal Numbers](pages/syntax.md#hexadecimal-numbers)
-  - [String Formmatting](pages/syntax.md#string-formmatting)
-  - [The End Keyword](pages/syntax.md#the-end-keyword)
-  - [The Sep Keyword](pages/syntax.md#the-sep-keyword)
+  - [String](pages/string.md#string)
+
 
 - [Operators](pages/operators.md)
   - [Basic Operators](pages/operators.md#basic-operators)
