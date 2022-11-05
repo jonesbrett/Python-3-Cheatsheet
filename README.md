@@ -13,7 +13,7 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
   - [Accuracy of Floating-point Numbers](pages/syntax.md#accuracy-of-floating-point-numbers)
   - [Octal Numbers](pages/syntax.md#octal-numbers)
   - [Hexadecimal Numbers](pages/syntax.md#hexadecimal-numbers)
-  - [String](pages/string.md#string)
+  - [String](pages/strings.md#strings)
 
 
 - [Operators](pages/operators.md)
