@@ -86,18 +86,7 @@ print(man_its_a_hot_one.split())
 ['Like', 'seven', 'inches', 'from', 'the', 'midday', 'sun']
 ```
 
-### Joining Strings
 
-You can join string using the '.join()' method, the argument now refers to the list and the delimiter
-is at the beginning.
-
-'delimiter'.join(list_you_want_to_join)
-
-```python
-my_munequita = ['My', 'Spanish', 'Harlem', 'Mona', 'Lisa']
-print(' '.join(my_munequita))
-'My Spanish Harlem Mona Lisa'
-```
 
 ### Format Function
 
