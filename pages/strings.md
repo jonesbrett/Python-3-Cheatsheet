@@ -7,7 +7,7 @@
 Everything in python is an object, where methods can be applied to return a manipulated version of the original object.
 
 | Operator | Function | Source | Command | Output |
-| -------- | ---- | ------- |
+| -------- | ---- | ------- | ------- | ------- |
 | .capitalize() | capitalizes a string |  text = "hello wORLD" | print(text.capitalize()) | Hello world |
 | .lower() | converts all to lower case | text = "hello wORLD" | print(text.lower()) | hello world |
 | .upper() | converts all to upper case | text = "hello wORLD" | print(text.upper()) | HELLO WORLD |
