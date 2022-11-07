@@ -7,23 +7,23 @@
 Everything in python is an object, where methods can be applied to return a manipulated version of the original object.
 
 | Operator | Function | Source | Command | Output |
-| -------- | ---- | ------- | ------- | ------- |
+| -------- | ---- | ------- | -------- | ------- |
 | .capitalize() | capitalizes a string |  text = "hello wORLD" | print(text.capitalize()) | Hello world |
 | .lower() | converts all to lower case | text = "hello wORLD" | print(text.lower()) | hello world |
 | .upper() | converts all to upper case | text = "hello wORLD" | print(text.upper()) | HELLO WORLD |
 | .title() | converts the first letter of each word to uppercase |  text = "hello wORLD" | print(text.title()) | Hello World |
 | .swapcase() | swaps the case of each letter | text = "hello wORLD" | print(text.swapcase()) | HELLO WORLD |
-| .count(<sub>[,<start>[,<end>]]) | counts the number of times <sub> occurs | text = "hello wORLD" | print(text.count('o', 0, 6)) | 1 |
-| .find(<sub>[,<start>[,<end>]]) | returns the index of <sub> first occurrence | text = "hello wORLD" | print(text.find('lo')) | 3 |
+| .count(Arg[,<start>[,<end>]]) | counts the number of times Arg occurs | text = "hello wORLD" | print(text.count('o', 0, 6)) | 1 |
+| .find(Arg[,<start>[,<end>]]) | returns the index of Arg first occurrence | text = "hello wORLD" | print(text.find('lo')) | 3 |
 | .isalnum() | returns True if alphanumeric | text = "hello wORLD" | print(text.isalnum()) | False |
 | .isalpha() | returns True if alphabets only | text = "hello wORLD" | print(text.isalpha()) | True |
 | .isdigit() | returns True if numbers only | text = "hello wORLD" | print(text.isdigit()) | False |
 | .islower() | returns True if all lowercase | text = "hello wORLD" | print(text.islower()) | False |
 | .isupper() | returns True if all uppercase | text = "hello wORLD" | print(text.isupper()) | False |
-| .lstrip(<sub>) | Removes leading characters <sub> argument | text = "hello wORLD" | print(text.lstrip('hel')) | lo wORLD |
-| .rstrip(<sub>) | Removes trailing characters <sub> argument | text = "hello wORLD" | print(text.rstrip('RLD')) | hello wO |
-| .strip(<sub>) | Removes characters <sub> argument | text = " hello wORLD " | print(text.strip()) | hello wORLD |
-| .join(<sub>) | Joins characters with <sub> argument | list = ["hello", "wORLD"] | print((' ').join(list)) | hello wORLD |
+| .lstrip(Arg) | Removes leading characters Arg argument | text = "hello wORLD" | print(text.lstrip('hel')) | lo wORLD |
+| .rstrip(Arg) | Removes trailing characters Arg argument | text = "hello wORLD" | print(text.rstrip('RLD')) | hello wO |
+| .strip(Arg>) | Removes characters Arg argument | text = " hello wORLD " | print(text.strip()) | hello wORLD |
+| .join(Arg) | Joins characters with Arg argument | list = ["hello", "wORLD"] | print((' ').join(list)) | hello wORLD |
 
 
 
