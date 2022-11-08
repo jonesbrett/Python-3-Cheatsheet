@@ -5,7 +5,7 @@
 ## String Methods
 
 Everything in python is an object, where methods can be applied to return a manipulated version of the original object.
-
+```python
 | Operator | Function | Source | Command | Output |
 | -------- | ---- | ------- | -------- | ------- |
 | .capitalize() | capitalizes a string |  text = "hello wORLD" | print(text.capitalize()) | Hello world |
@@ -25,7 +25,7 @@ Everything in python is an object, where methods can be applied to return a mani
 | .strip() | Removes characters in (argument) | text = " hello wORLD " | print(text.strip()) | hello wORLD |
 | .join() | Joins characters in  (argument) | lst = ["hello", "wORLD"] | print((' ').join(lst)) | hello wORLD |
 
-
+```
 
 
 
