@@ -13,7 +13,7 @@ Everything in python is an object, where methods can be applied to return a mani
 | .upper() | converts all to upper case | text = "hello wORLD" | print(text.upper()) | HELLO WORLD |
 | .title() | converts the first letter of each word to uppercase |  text = "hello wORLD" | print(text.title()) | Hello World |
 | .swapcase() | swaps the case of each letter | text = "hello wORLD" | print(text.swapcase()) | HELLO WORLD |
-| .count() | counts the number of times argument occurs | text = "hello wORLD" | print(text.count('o', 0, 6)) | 1 |
+| .count() | counts the number of times (argument) occurs | text = "hello wORLD" | print(text.count('o', 0, 6)) | 1 |
 | .find() | returns the index first occurrence  of argument| text = "hello wORLD" | print(text.find('lo')) | 3 |
 | .isalnum() | returns True if string is alphanumeric | text = "hello wORLD" | print(text.isalnum()) | False |
 | .isalpha() | returns True if string is alphabets only | text = "hello wORLD" | print(text.isalpha()) | True |
