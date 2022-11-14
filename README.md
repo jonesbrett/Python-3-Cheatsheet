@@ -42,8 +42,8 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
 
 - [Functions](pages/functions.md)
 
-- [Data Import](pages/csvimportsqlite.md)
-  - [SQLite](pages/csvimportsqlite.md)
+- [Data Import](pages/dataimports.md)
+  - [SQLite](pages/dataimports.md)
   
 - [Sys — System-Specific Parameters and Functions](pages/sys.md)
   - [Sys.Path.Append](pages/sys.md#syspathappend)
