@@ -1,5 +1,25 @@
 - [Return to Table of Contents](/../../)  
 
+### Files
+
+You can read data from a txt file with ' with open ('filename.txt') as 'text_file', the read the file and cache it as 'cache_file'.
+
+```python
+with open ('filename.txt') as text_file:
+    cache_file = text_file.read()
+    print(cache_file)
+```
+The above example will the complete fill and cache it. We can also read the file line by line.
+
+```python
+with open ('filename.txt') as text_file:
+    first_line = text_file.readline()
+    second_line = text_file.readline()
+    print(second_line)
+```
+
+### SQL
+
 You can use the Pandas module to import data from a CSV file into a SQLite db:
 
 
