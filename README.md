@@ -42,7 +42,8 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
 
 - [Functions](pages/functions.md)
 
-- [Data Import](pages/dataimports.md)
+- [Accessing External Data](pages/dataimports.md)
+  - [Files](pages/dataimports.md)
   - [SQLite](pages/dataimports.md)
   
 - [Sys — System-Specific Parameters and Functions](pages/sys.md)
