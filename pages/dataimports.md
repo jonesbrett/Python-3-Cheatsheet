@@ -9,7 +9,9 @@ with open ('filename.txt') as text_file:
     cache_file = text_file.read()
     print(cache_file)
 ```
-The above example will the complete fill and cache it. We can also read the file line by line.
+The above example will read the complete file and cache it as 'cache_file.
+
+We can also read the file line by line.
 
 ```python
 with open ('filename.txt') as text_file:
@@ -17,6 +19,14 @@ with open ('filename.txt') as text_file:
     second_line = text_file.readline()
     print(second_line)
 ```
+If we need to write to the file we can use the 'w' argument, the deafult argument is 'r' for read only.
+
+```python
+with open ('filename.txt' 'w') as text_file:
+    cache_file = text_file.read()
+    print(cache_file)
+```
+
 
 ### SQL
 
