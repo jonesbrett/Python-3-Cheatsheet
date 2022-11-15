@@ -23,8 +23,7 @@ If we need to write to the file we can use the 'w' argument, the deafult argumen
 
 ```python
 with open ('filename.txt' 'w') as text_file:
-    cache_file = text_file.read()
-    print(cache_file)
+    text_file.write("Hello World")
 ```
 
 
