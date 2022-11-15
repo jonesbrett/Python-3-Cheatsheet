@@ -47,7 +47,8 @@ curs = connection.cursor()
 
 # Creates the  table called "TradeData" with the following columns, id, date, open, high, low, close, volume, adj_close
 curs.execute(
-    """CREATE TABLE IF NOT EXISTS TradeData (id INTEGER, date text, open INTEGER, high INTEGER, low INTEGER, close INTEGER, volume INTEGER, adj_close INTEGER)"""
+    """CREATE TABLE IF NOT EXISTS TradeData (id INTEGER, date text, open INTEGER, high INTEGER, low INTEGER, 
+    close INTEGER, volume INTEGER, adj_close INTEGER)"""
 )
 
 # Load CSV into Pandas DataFrame
