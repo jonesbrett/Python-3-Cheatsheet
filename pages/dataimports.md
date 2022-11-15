@@ -25,7 +25,14 @@ If we need to write to the file we can use the 'w' argument, the deafult argumen
 with open ('filename.txt' 'w') as text_file:
     text_file.write("Hello World")
 ```
+The above example will overwrite the file.
 
+We can append to the file using the 'a' argument.
+
+```python
+with open ('filename.txt' 'a') as text_file:
+    text_file.write("Hello World")
+```
 
 ### SQL
 
