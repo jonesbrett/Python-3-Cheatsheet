@@ -160,9 +160,9 @@ Lists can also be a combination of all data types:
 
 ```python
 list = ['abc', 123, True]
-
-# Note that you should use a List if the values are of a different type. In such cases Tuples are better to use.
 ```
+>__Note__ You should use a List if the values are of a different type. In such cases Tuples are better to use.
+
 
 ### Mapping Data to a List
 
