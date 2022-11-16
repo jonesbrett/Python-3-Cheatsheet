@@ -195,9 +195,8 @@ thislist.sort(reverse=True)
 print(thislist)
 
 ['orange', 'cherry', 'banana', 'apple']
-
-# Note that when using the sort method, you can not un-sort once done.
 ```
+>__Note__ When using the sort method, you can not un-sort once done.
 
 To keep the original order in the List and sort the output, you use the 'sorted' function:
 
@@ -222,8 +221,8 @@ Print('Original:', thislist, '\nNewlist: ', newlist)
 Original: ['cherry', 'orange', 'apple', 'banana', 'grape'] 
 Newlist:  ['cherry', 'orange', 'apple', 'banana', 'grape']
 
-# Note that both the Lists are the same.
 ```
+>__Note__ Both of the Lists are the same.
 
 To create a duplicate of the original List you need to use slicing:
 
@@ -244,8 +243,10 @@ A Tuple is a collection which is ordered, indexed and immutable (they can not be
 
 ```python
 t = ('a','b','c')
-t = 'a','b','c'     # Note Tuples can be written without the brackets too.
+t = 'a','b','c'     
 ```
+>__Note__ Tuples can be written without the brackets too.
+
 ### Tuples Items
 
 A Tuple can also have a single item in them too, but it needs to have a comma after it:
