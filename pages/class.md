@@ -118,3 +118,12 @@ shout3 = Shouter("let it all out")
 # prints "LET IT ALL OUT"
 
 Above we’ve updated our Shouter class to take the additional parameter phrase. When we created each of our objects we passed an argument to the constructor. The constructor takes the argument phrase and, if it’s a string, prints out the all-caps version of phrase.
+
+
+class Circle:
+  pi = 3.14
+  
+  def __init__(self, dimeter):
+    print("New circle with diameter: {}".format(dimeter))
+
+teaching_table = Circle(36)
