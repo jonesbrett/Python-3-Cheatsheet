@@ -52,7 +52,7 @@ Scientific Numbers use an "e" or "E" to indicate to the power of 10:
 3e4 = 3E4 = 3 * 10000 = 30000
 3e-4 = 3E-4 = 3 * 1/10000 = 0.0003
 
-Python always uses Scientific Numbers for large numbers:
+Python always uses Scientific Numbers for large numbers: These are always returned as a float.
 
 ```python
 print(0.000000000000000000000000005)
