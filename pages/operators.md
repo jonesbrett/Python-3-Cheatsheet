@@ -35,10 +35,10 @@ Unary operators have a + or - sign infornt of the value:
 
 Arithmetic operators are used with numeric values to perform common mathematical operators:
 
-| Operator | Name | Example | Order of Operators |
-| -------- | ---- | ------- | ------------------ |
-| ** | Exponentiation | x ** y | 1st | - # These are calculated from right to left: 2 ** 2 ** 3 = 2 ** (2 ** 3)
-| // | Floor division | x // y | 1nd |
+| Operator | Name | Example | Order of Operators | Output |
+| -------- | ---- | ------- | ------------------ | ------ |
+| ** | Exponentiation | x ** y | 1st | - # These are calculated from right to left: 2 ** 2 ** 3 = 2 ** (2 ** 3) | 
+| // | Floor division | x // y | 1nd | If both operands are an integer the floor division operator will return an integer |
 | * | Multiplication | x * Y | 2nd |
 | / | Division | X / y | 2nd |
 | % | Modulus | x % y | 2nd |
