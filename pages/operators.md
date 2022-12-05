@@ -38,7 +38,7 @@ Arithmetic operators are used with numeric values to perform common mathematical
 | Operator | Name | Example | Order of Operators | Output |
 | -------- | ---- | ------- | ------------------ | ------ |
 | ** | Exponentiation | x ** y | 1st | These are calculated from right to left: 2 ** 2 ** 3 = 2 ** (2 ** 3) | 
-| // | Floor division | x // y | 1nd | If both operands are an integer the floor division operator will return an integer |
+| // | Floor division | x // y | 1nd | If both operands are an integer the floor division operator will return an integer, and these are calculated from left to right: 6 // 2 // 3 = (6 // 2) // 3 |
 | * | Multiplication | x * Y | 2nd |
 | / | Division | X / y | 2nd | Returns a float |
 | % | Modulus | x % y | 2nd | Returns an Integer |
