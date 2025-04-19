@@ -14,6 +14,7 @@ Welcome to my Cheat Sheet page, this is work in progress to assist me and any ot
   - [Octal Numbers](pages/syntax.md#octal-numbers)
   - [Hexadecimal Numbers](pages/syntax.md#hexadecimal-numbers)
   - [Strings](pages/strings.md#strings)
+  - [Virtual Environments](pages/venv.md#virtual environments)
 
 
 - [Operators](pages/operators.md)
