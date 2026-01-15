@@ -90,7 +90,7 @@ print(0x123)
 291
 ```
 
-## Logging
+## Debug Logging
 
 Display Debug logging to console
 
