@@ -90,6 +90,14 @@ print(0x123)
 291
 ```
 
+## Logging
 
+Display Debug logging to console
+
+```python
+import logging
+logging.basicConfig(level=logging.Debug)
+
+```
 
 - [Return to Table of Contents](/../../)
